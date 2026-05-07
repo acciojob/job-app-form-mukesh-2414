@@ -9,7 +9,7 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form method="post">
-	<label for="text">Name:</label>
+	<label for="name">Name:</label>
 		<input type="text" id="name" name="name" required>
 		<br>
 
@@ -18,15 +18,15 @@
 		<br>
 
 		<label for="gender">Gender:</label>
-		<input type="radio" value="male" name="gender" required>
+		<input type="radio" value="male" id="male" name="gender" required>
 		<label for="male">Male</label>
 
-		<input type="radio" value="female" name="gender">
+		<input type="radio" value="female" id="female" name="gender">
 		<label for="female">Female</label>
 		<br>
 
 			<label for="laptop">Laptop Brands:</label>
-		<select>
+		<select name="laptop">
 			<option value="Apple">Apple</option>
 			<option value="Asus">Asus</option>
 			<option value="HP">HP</option>
